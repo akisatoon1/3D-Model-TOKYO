@@ -1,0 +1,6 @@
+param, palace_paramを必ず用意してください。
+
+./deploy.sh <マップ番号の下2桁 (ex: 10, 11)>
+<マップ番号>.wrlが生成される。
+
+./integrated.shで全マップ統合版 wrl/integrated.wrlが生成される。
