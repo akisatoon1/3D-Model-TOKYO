@@ -1,0 +1,29 @@
+makeGround:
+元の点: 地面判定された点
+削減後の点: 最終的に構築する, つまり地面点と直方体の床点
+
+削減前の点数: 3006416
+削減後の点数: 1662630
+削減率: 55.30272590353431 %
+
+makeBuilding
+元の点: 建物点
+削減後の点: 直方体上面4点, 複雑の上面と下床点
+
+palace:
+Total points before processing: 83866
+Total points after processing:  55102
+Point reduction: 28764 points
+Reduction rate: 34.2976%
+
+city:
+Total points before processing: 3399934
+Total points after processing:  1094694
+Point reduction: 2305240 points
+Reduction rate: 67.8025%
+
+全体
+8365751
+2812426
+0.3361833265
+66.38166735%
