@@ -20,7 +20,9 @@
 [詳しいデータ仕様はこちら](result/data_spec.pdf)。
 
 ## 3Dモデル
-vrmlファイルはサイズが大きすぎる
+作成した3DモデルのファイルはReleaseにて配布。形式はVRML。
+
+[こちらのサイト](https://imagetostl.com/jp/view-vrml-online)にアップロードすれば3Dモデルを見ることができる。
 
 ## アルゴリズム
 [ポスター](result/poster.pdf)に詳しく記載。
