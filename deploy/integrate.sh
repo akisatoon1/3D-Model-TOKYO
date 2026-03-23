@@ -16,6 +16,7 @@ echo "makeBuilding"
 echo "makeGround"
 ./makeGround/integrate.sh
 
+mkdir -p wrl
 echo "#VRML V2.0 utf8
 
 Inline {
