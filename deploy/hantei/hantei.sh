@@ -6,6 +6,7 @@ set -e
 num=$1
 input=newMap/output/${num}.dat
 output=hantei/output/${num}.dat
+mkdir -p hantei/output
 
 if [[ $num -eq 53394610 || $num -eq 53394620 ]]; then
     python3 hantei/Ground_detect_plain.py $input $output
