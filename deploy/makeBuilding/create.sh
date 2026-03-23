@@ -9,6 +9,10 @@ output=makeBuilding/wrl/${num}_building.wrl
 floor_output=makeBuilding/floor/${num}_floors.dat
 log=makeBuilding/log/${num}.log
 
+mkdir -p makeBuilding/wrl
+mkdir -p makeBuilding/floor
+mkdir -p makeBuilding/log
+
 if [[ $num -eq 53394610 || $num -eq 53394620 ]]; then
     ./makeBuilding/vrml --input $input --out-vrml $output --out-floor $floor_output --log $log --param palace_param
 else

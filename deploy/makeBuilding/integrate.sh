@@ -7,6 +7,7 @@ input=opening/integrated/plain.dat
 output=makeBuilding/integrated/plain_building.wrl
 floor_output=makeBuilding/integrated/plain_floors.dat
 log=makeBuilding/integrated/plain.log
+mkdir -p makeBuilding/integrated
 
 ./makeBuilding/vrml --input $input --out-vrml $output --out-floor $floor_output --log $log --param palace_param
 
