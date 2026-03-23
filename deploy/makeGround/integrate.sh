@@ -6,5 +6,6 @@ set -e
 input=opening/integrated/all.dat
 floor=makeBuilding/integrated/floors.dat
 output=makeGround/integrated/floors.wrl
+mkdir -p makeGround/integrated
 
 python3 makeGround/delaunay04.py $input $floor $output

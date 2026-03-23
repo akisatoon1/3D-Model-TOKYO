@@ -7,5 +7,6 @@ num=$1
 input=opening/output/${num}.dat
 floor=makeBuilding/floor/${num}_floors.dat
 output=makeGround/wrl/${num}_ground.wrl
+mkdir -p makeGround/wrl
 
 python3 makeGround/delaunay04.py $input $floor $output
