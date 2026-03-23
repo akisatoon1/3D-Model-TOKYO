@@ -49,6 +49,7 @@ echo "Step 4: Make Ground"
 
 echo "-------------------------"
 
+mkdir -p wrl
 echo "#VRML V2.0 utf8
 
 Inline {
