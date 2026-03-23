@@ -14,7 +14,7 @@
 約1m間隔の格子状標高値のデータ。[詳しいデータ仕様はこちら](result/data_spec.pdf)。
 
 ## 3Dモデル
-[VRMLファイル](result/city_model.wrl)をVRML Viewerで開きます。
+vrmlファイルはサイズが大きすぎる
 
 ## アルゴリズム
 1. 点群のデータを地面or建物に分類する。
