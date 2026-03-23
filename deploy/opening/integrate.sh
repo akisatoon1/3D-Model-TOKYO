@@ -5,6 +5,7 @@ set -e
 
 input=hantei/integrated/plain.dat
 output=opening/integrated/plain.dat
+mkdir -p opening/integrated
 ./opening/opening $input $output --size 9
 
 input=hantei/integrated/city.dat
