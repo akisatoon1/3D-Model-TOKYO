@@ -11,3 +11,4 @@ flowchart TB
   End["完了メッセージ出力"]
 
   Start --> Read --> Open --> Erode --> Dilate --> Write --> End
+```
