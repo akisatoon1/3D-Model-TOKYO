@@ -15,7 +15,7 @@ flowchart TD
 
     CLIP --> HANTEI --> OPENING
 
-    click OPENING "/system/opening.md" "システム構成図"
+    click OPENING "system/opening.md" "システム構成図"
   end
 
   subgraph Model3D["3Dモデリング"]
@@ -29,7 +29,7 @@ flowchart TD
     BUILD --> FLOORS --> GROUND --> GVRML
     OPENING --> GROUND
 
-    click BUILD "/system/makeBuilding.md" "システム構成図"
+    click BUILD "system/makeBuilding.md" "システム構成図"
   end
 
   subgraph Export["出力"]
