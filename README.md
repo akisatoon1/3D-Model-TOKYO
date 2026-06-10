@@ -25,3 +25,9 @@
 
 ## アルゴリズム
 [ポスター](result/poster.pdf)に詳しく記載。
+
+## メンバーの貢献
+### [@ClodeWhite](https://github.com/ClodeWhite)
+このプロジェクトに欠かせない、核となるプログラムを作成してくれました。
+
+[点群の地面判定プログラム](https://github.com/akisatoon1/3D-Model-TOKYO/tree/main/point_classfication)を作成。
